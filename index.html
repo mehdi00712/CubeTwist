@@ -4,20 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>CubeTwist | Premium Websites & Mobile Apps</title>
-  <meta name="description" content="CubeTwist builds premium websites, mobile apps, e-commerce stores, booking systems and Firebase-powered platforms." />
+  <title>CubeTwist | Digital Solutions Company</title>
+  <meta name="description" content="CubeTwist builds premium websites, mobile apps, e-commerce stores, booking systems, admin dashboards and secure business platforms." />
 
   <link rel="icon" href="images/logo.jpeg" />
   <link rel="stylesheet" href="style.css" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body>
+  <div class="loader" id="loader">
+    <img src="images/logo.jpeg" alt="CubeTwist Logo" />
+    <span>CubeTwist</span>
+  </div>
+
   <div class="noise"></div>
   <div class="aurora"></div>
   <div class="grid-bg"></div>
@@ -30,61 +29,54 @@
 
     <nav class="nav" id="nav">
       <a href="#services">Services</a>
-      <a href="#showcase">Showcase</a>
+      <a href="#projects">Projects</a>
       <a href="#process">Process</a>
+      <a href="#pricing">Packages</a>
       <a href="#contact">Contact</a>
     </nav>
 
     <a class="header-btn" href="https://wa.me/23057750662">Start Project</a>
 
     <button class="menu-btn" id="menuBtn" aria-label="Open Menu">
-      <span></span><span></span><span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero-left">
-        <div class="badge">
-          <i class="fa-solid fa-bolt"></i>
-          Premium App & Website Developer
-        </div>
+        <div class="badge">◆ CubeTwist Digital Solutions</div>
 
         <h1>
-          Build a digital presence that looks
-          <span>expensive.</span>
+          We Build Digital Experiences That
+          <span>Drive Growth.</span>
         </h1>
 
         <p>
-          CubeTwist creates modern websites, mobile apps, e-commerce platforms,
-          booking systems and admin dashboards with premium design, smooth
-          animations and real business features.
+          CubeTwist is a digital solutions company delivering premium websites,
+          business platforms, mobile applications and custom software designed
+          to help businesses grow, automate operations and attract customers.
         </p>
 
         <div class="hero-actions">
-          <a class="btn primary" href="https://wa.me/23057750662">
-            <i class="fa-brands fa-whatsapp"></i>
-            Get a Quote
-          </a>
-
-          <a class="btn glass" href="#showcase">
-            View Showcase
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
+          <a class="btn primary" href="https://wa.me/23057750662">Get a Quote</a>
+          <a class="btn glass" href="#projects">View Projects</a>
         </div>
 
         <div class="hero-stats">
           <div>
-            <strong>Websites</strong>
-            <span>Fast, modern, responsive</span>
+            <strong class="counter" data-target="25">0</strong>
+            <span>Digital solutions planned and built</span>
           </div>
           <div>
-            <strong>Apps</strong>
-            <span>Android, iOS, Flutter</span>
+            <strong class="counter" data-target="100">0</strong>
+            <span>Mobile responsive experience</span>
           </div>
           <div>
-            <strong>Systems</strong>
-            <span>Firebase, admin panels</span>
+            <strong class="counter" data-target="24">0</strong>
+            <span>Support-focused delivery</span>
           </div>
         </div>
       </div>
@@ -92,25 +84,20 @@
       <div class="hero-right">
         <div class="orb"></div>
 
-        <div class="main-logo-card" id="tiltCard">
-          <img src="images/logo.jpeg" alt="CubeTwist 3D Logo" />
-          <div class="shine"></div>
+        <div class="cube-scene" id="tiltCard">
+          <div class="cube">
+            <div class="cube-face front"><img src="images/logo.jpeg" alt="CubeTwist Logo" /></div>
+            <div class="cube-face back"><img src="images/logo.jpeg" alt="CubeTwist Logo" /></div>
+            <div class="cube-face right"><img src="images/logo.jpeg" alt="CubeTwist Logo" /></div>
+            <div class="cube-face left"><img src="images/logo.jpeg" alt="CubeTwist Logo" /></div>
+            <div class="cube-face top"><img src="images/logo.jpeg" alt="CubeTwist Logo" /></div>
+            <div class="cube-face bottom"><img src="images/logo.jpeg" alt="CubeTwist Logo" /></div>
+          </div>
         </div>
 
-        <div class="floating-chip chip-1">
-          <i class="fa-solid fa-code"></i>
-          Clean Code
-        </div>
-
-        <div class="floating-chip chip-2">
-          <i class="fa-solid fa-mobile-screen"></i>
-          Mobile First
-        </div>
-
-        <div class="floating-chip chip-3">
-          <i class="fa-solid fa-database"></i>
-          Firebase Ready
-        </div>
+        <div class="floating-chip chip-1">Professional Development</div>
+        <div class="floating-chip chip-2">Modern User Experience</div>
+        <div class="floating-chip chip-3">Secure Platforms</div>
       </div>
     </section>
 
@@ -121,94 +108,125 @@
         <span>E-Commerce</span>
         <span>Booking Systems</span>
         <span>Admin Dashboards</span>
-        <span>Firebase Backend</span>
+        <span>Business Platforms</span>
         <span>UI/UX Design</span>
+      </div>
+    </section>
+
+    <section class="section trust">
+      <div class="trust-card">
+        <span>Trusted for</span>
+        <strong>Business Websites</strong>
+      </div>
+      <div class="trust-card">
+        <span>Built for</span>
+        <strong>Online Stores</strong>
+      </div>
+      <div class="trust-card">
+        <span>Designed for</span>
+        <strong>Mobile Users</strong>
+      </div>
+      <div class="trust-card">
+        <span>Powered by</span>
+        <strong>Custom Systems</strong>
       </div>
     </section>
 
     <section class="section" id="services">
       <div class="section-head">
         <span>Services</span>
-        <h2>Everything needed to make your business look professional online.</h2>
+        <h2>Complete digital solutions for modern businesses.</h2>
       </div>
 
       <div class="services">
         <article>
-          <i class="fa-solid fa-globe"></i>
+          <div class="service-icon">01</div>
           <h3>Business Websites</h3>
-          <p>Premium websites for companies, restaurants, salons, shops, portfolios and services.</p>
+          <p>Premium websites for companies, restaurants, salons, shops, portfolios and service providers.</p>
         </article>
 
         <article>
-          <i class="fa-solid fa-cart-shopping"></i>
+          <div class="service-icon">02</div>
           <h3>E-Commerce Stores</h3>
-          <p>Product pages, cart, checkout, order management and admin product control.</p>
+          <p>Online stores with product pages, cart, checkout, order tracking and admin management.</p>
         </article>
 
         <article>
-          <i class="fa-solid fa-mobile-screen-button"></i>
-          <h3>Mobile Apps</h3>
-          <p>Android and iOS apps using Flutter with login, dashboards, orders and notifications.</p>
+          <div class="service-icon">03</div>
+          <h3>Mobile Applications</h3>
+          <p>Professional mobile app experiences with accounts, dashboards, orders and notifications.</p>
         </article>
 
         <article>
-          <i class="fa-solid fa-calendar-check"></i>
+          <div class="service-icon">04</div>
           <h3>Booking Systems</h3>
-          <p>Booking platforms for tours, appointments, services, transport and events.</p>
+          <p>Booking platforms for tours, appointments, services, transport, events and reservations.</p>
         </article>
 
         <article>
-          <i class="fa-solid fa-chart-simple"></i>
+          <div class="service-icon">05</div>
           <h3>Admin Dashboards</h3>
-          <p>Manage users, products, orders, bookings, payments and business data easily.</p>
+          <p>Manage users, products, bookings, orders, payments and business data from one place.</p>
         </article>
 
         <article>
-          <i class="fa-solid fa-fire"></i>
-          <h3>Firebase Backend</h3>
-          <p>Authentication, Firestore, Storage, secure rules and cloud-powered systems.</p>
+          <div class="service-icon">06</div>
+          <h3>Business Platforms</h3>
+          <p>Secure business systems, customer portals, automation tools and data management solutions.</p>
         </article>
       </div>
     </section>
 
-    <section class="section showcase" id="showcase">
+    <section class="section projects" id="projects">
       <div class="section-head">
         <span>Showcase</span>
-        <h2>A brand presentation that feels high-end.</h2>
+        <h2>A premium identity built to impress clients.</h2>
       </div>
 
-      <div class="showcase-grid">
-        <div class="mockup-card wide">
+      <div class="project-grid">
+        <article class="project-card large">
           <img src="images/card-back.jpeg" alt="CubeTwist Business Card Back" />
-        </div>
+          <div>
+            <span>Brand Identity</span>
+            <h3>Premium Business Presentation</h3>
+          </div>
+        </article>
 
-        <div class="mockup-card logo-only">
+        <article class="project-card">
           <img src="images/logo.jpeg" alt="CubeTwist Logo" />
-        </div>
+          <div>
+            <span>Logo System</span>
+            <h3>3D Digital Brand</h3>
+          </div>
+        </article>
 
-        <div class="mockup-card wide">
+        <article class="project-card large">
           <img src="images/card-front.jpeg" alt="CubeTwist Business Card Front" />
-        </div>
+          <div>
+            <span>Print Design</span>
+            <h3>Professional Client Card</h3>
+          </div>
+        </article>
       </div>
     </section>
 
     <section class="section split">
       <div>
         <span class="mini-title">Why CubeTwist</span>
-        <h2>Not just design. A full digital solution.</h2>
+        <h2>More Than Design. Complete Digital Solutions.</h2>
+
         <p>
-          Your website or app should not only look beautiful. It should load fast,
-          work on phones, collect customers, manage orders and make your business
-          easier to run.
+          Every website and application we deliver is designed to strengthen your
+          brand, improve customer engagement and support business growth.
         </p>
 
         <div class="features">
-          <div><i class="fa-solid fa-check"></i> Premium 3D-inspired design</div>
-          <div><i class="fa-solid fa-check"></i> Mobile responsive layouts</div>
-          <div><i class="fa-solid fa-check"></i> WhatsApp and contact integration</div>
-          <div><i class="fa-solid fa-check"></i> Admin dashboard available</div>
-          <div><i class="fa-solid fa-check"></i> Firebase backend support</div>
-          <div><i class="fa-solid fa-check"></i> Clean, scalable code</div>
+          <div>✓ Premium 3D-inspired design</div>
+          <div>✓ Mobile responsive layouts</div>
+          <div>✓ Contact and message integration</div>
+          <div>✓ Admin dashboard available</div>
+          <div>✓ Secure backend support</div>
+          <div>✓ Clean, scalable code</div>
         </div>
       </div>
 
@@ -233,44 +251,109 @@
       <div class="process">
         <article>
           <span>01</span>
-          <h3>Discuss</h3>
-          <p>We define your business goal, pages, features and design direction.</p>
+          <h3>Discover</h3>
+          <p>Our team analyses your business goals, pages, features and design direction.</p>
         </article>
 
         <article>
           <span>02</span>
           <h3>Design</h3>
-          <p>I create a clean, modern interface that matches your brand.</p>
+          <p>Our design team creates modern digital experiences tailored to your business.</p>
         </article>
 
         <article>
           <span>03</span>
           <h3>Develop</h3>
-          <p>The website or app is built with responsive layout and real features.</p>
+          <p>Our developers build and optimize your platform with responsive layouts and real features.</p>
         </article>
 
         <article>
           <span>04</span>
           <h3>Launch</h3>
-          <p>Your project is deployed and ready to share with customers.</p>
+          <p>Your project is tested, deployed and ready to share with customers.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="section-head">
+        <span>Client Experience</span>
+        <h2>Built to make businesses look more professional.</h2>
+      </div>
+
+      <div class="testimonial-grid">
+        <article>
+          <p>“CubeTwist creates digital experiences that feel premium, clear and easy for customers to use.”</p>
+          <strong>Business Website Client</strong>
+        </article>
+
+        <article>
+          <p>“The design feels modern and the system makes the business easier to manage.”</p>
+          <strong>Booking Platform Client</strong>
+        </article>
+
+        <article>
+          <p>“A professional result with strong branding, smooth layout and mobile-friendly pages.”</p>
+          <strong>Online Store Client</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="section-head">
+        <span>Packages</span>
+        <h2>Flexible solutions for every business stage.</h2>
+      </div>
+
+      <div class="pricing-grid">
+        <article>
+          <span>Starter</span>
+          <h3>Website Presence</h3>
+          <p>Perfect for businesses that need a strong online first impression.</p>
+          <ul>
+            <li>Responsive website</li>
+            <li>Modern landing page</li>
+            <li>Contact integration</li>
+            <li>Basic SEO structure</li>
+          </ul>
+          <a href="https://wa.me/23057750662">Request Quote</a>
+        </article>
+
+        <article class="featured">
+          <span>Business</span>
+          <h3>Growth Platform</h3>
+          <p>For businesses that need more features, pages and customer actions.</p>
+          <ul>
+            <li>Multi-page website</li>
+            <li>Booking or order flow</li>
+            <li>Admin dashboard</li>
+            <li>Secure data handling</li>
+          </ul>
+          <a href="https://wa.me/23057750662">Request Quote</a>
+        </article>
+
+        <article>
+          <span>Custom</span>
+          <h3>App & System</h3>
+          <p>For companies that need custom apps, portals or internal systems.</p>
+          <ul>
+            <li>Mobile application</li>
+            <li>Custom business logic</li>
+            <li>User accounts</li>
+            <li>Advanced dashboard</li>
+          </ul>
+          <a href="https://wa.me/23057750662">Request Quote</a>
         </article>
       </div>
     </section>
 
     <section class="cta">
-      <h2>Ready to make your business look premium?</h2>
-      <p>Message CubeTwist and let’s build your website or app.</p>
+      <h2>Ready To Transform Your Business Online?</h2>
+      <p>Partner with CubeTwist and let our team create a powerful digital solution for your business.</p>
 
       <div class="hero-actions">
-        <a class="btn primary" href="https://wa.me/23057750662">
-          <i class="fa-brands fa-whatsapp"></i>
-          WhatsApp Now
-        </a>
-
-        <a class="btn glass" href="tel:+23057750662">
-          <i class="fa-solid fa-phone"></i>
-          Call Me
-        </a>
+        <a class="btn primary" href="https://wa.me/23057750662">WhatsApp Us</a>
+        <a class="btn glass" href="tel:+23057750662">Contact Us</a>
       </div>
     </section>
 
@@ -283,27 +366,18 @@
       <div class="contact-grid">
         <div class="contact-links">
           <a href="tel:+23057750662">
-            <i class="fa-solid fa-phone"></i>
-            <div>
-              <strong>Phone</strong>
-              <span>+230 5775 0662</span>
-            </div>
+            <strong>Phone</strong>
+            <span>+230 5775 0662</span>
           </a>
 
           <a href="https://instagram.com/cubetwist" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
-            <div>
-              <strong>Instagram</strong>
-              <span>@cubetwist</span>
-            </div>
+            <strong>Instagram</strong>
+            <span>@cubetwist</span>
           </a>
 
           <a href="https://wa.me/23057750662" target="_blank">
-            <i class="fa-brands fa-whatsapp"></i>
-            <div>
-              <strong>WhatsApp</strong>
-              <span>Send a message</span>
-            </div>
+            <strong>WhatsApp</strong>
+            <span>Send a message</span>
           </a>
         </div>
 
@@ -318,14 +392,12 @@
             <option>E-Commerce Store</option>
             <option>Booking System</option>
             <option>Admin Dashboard</option>
+            <option>Business Platform</option>
           </select>
 
-          <textarea id="message" placeholder="Tell me what you need" required></textarea>
+          <textarea id="message" placeholder="Tell us what you need" required></textarea>
 
-          <button class="btn primary" type="submit">
-            Send Request
-            <i class="fa-solid fa-paper-plane"></i>
-          </button>
+          <button class="btn primary" type="submit">Send Request</button>
         </form>
       </div>
     </section>
@@ -334,7 +406,7 @@
   <footer>
     <img src="images/logo.jpeg" alt="CubeTwist Logo" />
     <h3>CubeTwist</h3>
-    <p>App & Website Developer</p>
+    <p>Digital Solutions Company</p>
     <span>Code. Design. Deploy. Deliver.</span>
   </footer>
 
